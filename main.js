@@ -3,15 +3,15 @@
 // PARI E DISPARI
 
     // utente sceglie numero 
-    const numeroUtente = prompt("inserisci un numero da 1 a 5");
+    const numeroUtente = parseInt(prompt("inserisci un numero da 1 a 5"));
     console.log(numeroUtente);
 
     // computer genera numero da 1 a 5 usando una funzione
 
 
     function generatoreNumeri() {
-    let risultato = Math.floor(Math.random() * 5);
-    return risultato;
+    let risultatoRandom = Math.floor(Math.random() * 5);
+    return risultatoRandom;
     };
 
     generatoreNumeri();
@@ -20,6 +20,13 @@
 
     console.log(numeroRandom);
 
-    // sommiamo i due numeri
+    // sommiamo i due numeri con una funzione
+    function numeriSommati(num1, num2) {
+        somma = num1 + num2;
+        return somma;
+    };
+    console.log(numeriSommati(numeroUtente, numeroRandom));
+
+
 
     // dichiariamo chi ha vinto
