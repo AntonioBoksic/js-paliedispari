@@ -29,6 +29,7 @@
     };
     console.log(numeriSommati(numeroUtente, numeroRandom));
 
+    // stabiliamo se la somma è pari o dispari
     if (somma % 2 == 0) {
         console.log("il numero è pari")
 
@@ -39,3 +40,6 @@
 
 
     // dichiariamo chi ha vinto
+
+            // se la scelta dell'utente è uguale a (?) l'utente vince
+            // altrimenti l'utente ha perso
