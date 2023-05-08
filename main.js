@@ -5,6 +5,8 @@
     // utente sceglie numero 
     const numeroUtente = parseInt(prompt("inserisci un numero da 1 a 5"));
     console.log(numeroUtente);
+    const sceltaUtente = prompt("inserisci pari o dispari");
+    console.log(sceltaUtente);
 
     // computer genera numero da 1 a 5 usando una funzione
 
