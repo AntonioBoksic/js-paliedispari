@@ -28,18 +28,30 @@
         return somma;
     };
     console.log(numeriSommati(numeroUtente, numeroRandom));
-
+    
     // stabiliamo se la somma è pari o dispari
-    if (somma % 2 == 0) {
-        console.log("il numero è pari")
+        let esito;
+
+        if (somma % 2 == 0) {
+        esito = "pari"
+        console.log(`la somma è ${esito}`)
 
     } else {
-        console.log("il numero è dispari")
+        esito = "dispari"
+
+        console.log(`la somma è ${esito}`)
     };
+    
 
 
 
-    // dichiariamo chi ha vinto
+            // dichiariamo chi ha vinto
 
-            // se la scelta dell'utente è uguale a (?) l'utente vince
-            // altrimenti l'utente ha perso
+                    // se la scelta dell'utente è uguale a (?) l'utente vince
+                    // altrimenti l'utente ha perso
+
+    if (sceltaUtente === esito) {
+        console.log("l'utente ha vinto")
+    } else {
+        console.log("l'utente ha perso")
+    };
