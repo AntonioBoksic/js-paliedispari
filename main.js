@@ -7,10 +7,10 @@
     console.log(numeroUtente);
 
     // computer genera numero da 1 a 5 usando una funzione
-    let risultato = 0;
+
 
     function generatoreNumeri() {
-    let risultato = Math.floor(Math.random() * 5) + 1;
+    let risultato = Math.floor(Math.random() * 5);
     return risultato;
     };
 
