@@ -29,6 +29,13 @@
     };
     console.log(numeriSommati(numeroUtente, numeroRandom));
 
+    if (somma % 2 == 0) {
+        console.log("il numero è pari")
+
+    } else {
+        console.log("il numero è dispari")
+    };
+
 
 
     // dichiariamo chi ha vinto
